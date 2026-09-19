@@ -6,8 +6,8 @@
 
 - [x] Task1：Linux Shell
 - [x] Task2：Markdown
-- [ ] Task3：Git
-- [ ] Task4
+- [x] Task3：Git
+- [x] Task4：CMake
 - [ ] Task5
 - [ ] Task6
 - [ ] Task7
