@@ -105,6 +105,24 @@ hello
 
 这些文件可以重新生成，因此本项目通过 `.gitignore` 忽略 `Task4/build/`，不将其提交到 Git 仓库。
 
+## 运行结果
+
+使用 CMake 和 Make 完成项目构建后，运行生成的可执行程序：
+
+```bash
+./hello
+```
+
+程序输出：
+
+```text
+Hello CMake!
+```
+
+运行效果如下：
+
+![Task4运行结果](screenshots/result.png)
+
 ## 总结
 
 通过本任务完成了基本 `CMakeLists.txt` 的编写，并在 Ubuntu 下完成了 C++ 项目的配置、编译和运行，理解了 CMake、Make 和 g++ 在构建过程中的基本关系。

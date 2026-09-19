@@ -226,6 +226,21 @@ ls /sys/class/hwmon/
 
 因此，当前 VMware 虚拟机没有暴露宿主机的电池电量或 CPU 温度传感器，无法直接完成电池电量或 CPU 温度的读取。但通过读取 `ACAD/online` 和 `ACAD/type`，验证了通过 `/sys` 文件接口获取设备状态的方法。
 
+## 运行结果
+
+以下截图展示了本任务中部分命令行操作的实际运行结果：
+
+![Task1命令行运行结果](screenshots/result.png)
+
+截图中包含：
+
+- `ls -l`：查看文件详细信息以及文件权限，其中 `task1.sh` 具有可执行权限。
+- `./task1.sh`：直接执行 Shell 脚本，输出当前目录以及目录中的文件。
+- `cat ~/last-modified.txt`：查看通过管道、`grep` 和输出重定向得到的 HTTP `last-modified` 信息。
+- `cat /sys/class/power_supply/ACAD/online`：读取虚拟文件系统中的电源状态，结果为 `1`，表示交流电源在线。
+- `cat /sys/class/power_supply/ACAD/type`：读取电源类型，结果为 `Mains`。
+- `cat test.txt`：查看重定向练习产生的文本文件内容。
+
 ## 7. 总结
 
 通过本次练习，我学习了 Linux Shell 的基本使用，包括目录和文件操作、文件权限、Shell 脚本执行、管道、输出重定向以及 `/sys` 文件系统的基本使用。
