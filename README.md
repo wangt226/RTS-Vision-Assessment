@@ -8,7 +8,7 @@
 - [x] Task2：Markdown
 - [x] Task3：Git
 - [x] Task4：CMake
-- [ ] Task5
+- [x] Task5：OpenCV
 - [ ] Task6
 - [ ] Task7
 - [ ] Task8（Bonus）
