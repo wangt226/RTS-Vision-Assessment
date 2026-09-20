@@ -13,6 +13,6 @@
 - [x] Task3：Git
 - [x] Task4：CMake
 - [x] Task5：OpenCV
-- [ ] Task6：ROS
+- [x] Task6：ROS
 - [ ] Task7：YOLO
 - [ ] Task8（Bonus）

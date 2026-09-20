@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="rts_sender"
+          type="sender_node"
+          name="sender_node"
+          output="screen" />
+
+    <node pkg="rts_receiver"
+          type="receiver_node"
+          name="receiver_node"
+          output="screen" />
+</launch>
